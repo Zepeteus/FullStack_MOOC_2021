@@ -1,0 +1,9 @@
+title osa 0.6
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: {"message":"note created"}
+note over selain:
+selain suorittaa tapahtumankäsittelijän
+joka renderöi muistiinpanot näytölle, SPA:na ei ole tarvetta
+requestata tarvittavia tiedostoja uudelleen
+end note
